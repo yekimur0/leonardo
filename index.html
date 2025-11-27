@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <header class="header">
+    <div class="header__top">
+            <div class="container">
+                <div class="header__top-wrapper">
+                    <div class="left">
+                        <a href="" class="logo">
+                            <img src="../img/logo.svg" alt="Леонардо">
+                        </a>
+                        <div class="city">
+                            Самара
+                        </div>
+                    </div>
+                    <div class="header__top-actions">
+                        <a href="" class="link">Email@gmail.com</a>
+                        <a href="" class="link">8-000-000-00-00</a>
+
+                        <div class="header__top-socials">
+                            <a href="" class="icon-socials">
+                                <svg class="icon-socials">
+                                    <use href="img/sprite.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                            <a href="" class="icon-socials">
+                                <svg>
+                                    <use href="img/sprite.svg#telegram"></use>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn-reset btn header__btn" data-open-modal="cb">Заказать звонок</button>
+                    </div>
+
+                    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger="">
+                        <span class="burger__line"></span>
+                    </button>
+                </div>
+            </div>
+    </div>
+
+    <div class="header__bottom">
+        <div class="container">
+            <nav class="nav header__menu">
+                <ul class="list-reset header__menu-list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="">Ассортимент</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="">Реализованные проекты</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="">Дизайнерам</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="">о компании</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="">Контакты</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="">Блог</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__mobile">
+                <div class="header__mobile-links">
+                    <a href="">Email@gmail.ru</a>
+                    <a href="">8-000-000-00-00</a>
+                </div>
+                <!-- /.header__mobile-links -->
+
+                <button type="button" class="btn-reset btn" data-open-modal="cb">Заказать звонок</button>
+            </div>
+            <!-- /.header__mobile -->
+        </div>
+    </div>
+
+</header>
+    <main class="main">
+      <section class="hero">
+    <picture class="hero__bg">
+        <source media="(max-width: 768px)" srcset="../img/hero-bg-mobile.webp" type="image/webp">
+        <img src="../img/hero-bg.webp" alt="">
+    </picture>
+
+    <div class="container">
+        <div class="hero__content">
+            <h1 class="hero__title">
+                Кухни и мебель <br/>
+                премиум-класса На заказ со всей Европы
+            </h1>
+            <p class="hero__desc">Окунитесь в мир эксклюзивного дизайна</p>
+            <button type="button" class="btn-reset btn hero__btn" data-open-modal="catalog">Получить каталог</button>
+        </div>
+
+        <a class="animate-link" href="">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.353546 0.5H44.3535M44.3535 0.5V44.5M44.3535 0.5L0.353546 44.5" stroke="#F1F1F1" />
+            </svg>
+        </a>
+    </div>
+
+</section>
+      <section class="futures">
+    <div class="container">
+        <div class="futures__wrapper">
+            <div class="futures__video">
+                <img src="../img/video-poster.webp" alt="">
+
+                <button type="button" class="btn-reset btn-play">
+                    <svg>
+                        <use href="img/sprite.svg#btn-play"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="futures__content">
+                <h2 class="title__section futures__title">Создаем интерьер с яркой индивидуальностью</h2>
+
+                <div class="futures__items">
+                    <div class="futures__item">
+                        <div class="futures__item-title">Внимание <br/> к деталям</div>
+                        <div class="futures__item-desc">Каждая деталь интерьера имеет значение — от текстуры ткани до оттенка дерева.</div>
+                    </div>
+                    <div class="futures__item">
+                        <div class="futures__item-title">Контроль <br/> качества</div>
+                        <div class="futures__item-desc">Работаем только с проверенными фабриками и брендами, следим за качеством на каждом этапе</div>
+                    </div>
+                    <div class="futures__item">
+                        <div class="futures__item-title">Индивидуальный <br/> подход</div>
+                        <div class="futures__item-desc">Мы создаём решения, отражающие характер и стиль жизни клиента</div>
+                    </div>
+                    <div class="futures__item">
+                        <div class="futures__item-title">Долгосрочные <br/> отношения</div>
+                        <div class="futures__item-desc">Мы ценим доверие клиентов и строим сотрудничество на годы</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="offer">
+    <div class="container">
+        <div class="offer__head">
+            <h2 class="title__section offer__title">мебель премиум класса <br/> В НАЛИЧИИ И НА ЗАКАЗ</h2>
+            <a class="offer__link link-border" href="">Посетить шоурум</a>
+        </div>
+
+        <div class="offer__items offer__items--3">
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/1.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Мягкая мебель</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/2.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Корпусная мебель</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/3.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Кухни</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer__items offer__items--4">
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/4.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Столы и стульяь</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/5.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Спальни</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/6.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Свет</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="offer__item">
+                <a href="" class="offer__item-link"></a>
+                <div class="offer__item-img">
+                    <img src="../img/offers/7.webp" alt="">
+                </div>
+                <div class="offer__item-bottom">
+                    <div class="offer__item-title">Аксессуары</div>
+                    <span class="offer__item-toggler">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+      <section class="cb">
+    <div class="container">
+        <div class="cb__wrapper">
+            <div class="cb__form">
+                <h2 class="title__section cb__title">Индивидуальный подход для особенных проектов</h2>
+                <div class="cb__desc text-16">Оставьте свои данные и мы перезвоним в ближайшее время</div>
+
+                <form class="form-cb" action="">
+                    <div class="form-cb__row">
+                        <input type="text" placeholder="Имя*" class="input">
+                        <input type="text" placeholder="Телефон*" class="input">
+                        <input type="text" placeholder="Ваш город*" class="input">
+                    </div>
+
+                    <div class="form-cb__bottom">
+                        <div class="policy">
+                            <input type="checkbox">
+                            <label for="">отправляя формы на данном сайте, вы даете согласие на обработку персональных данных </label>
+                        </div>
+
+                        <button class="btn-reset btn form-cb__btn">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="cb__image">
+                <img src="../img/cb-img.webp" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="projects">
+    <div class="container">
+        <div class="projects__head">
+            <h2 class="title__section projects__title">200+ реализованных проектов</h2>
+            <a class="projects__link link-border" href="">Смотреть все проекты</a>
+        </div>
+    </div>
+
+    <div class="projects__slider">
+        <div class="swiper projects__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide projects__slide">
+                    <a href="" class="projects__slide-link"></a>
+                    <div class="projects__slide-img">
+                        <img src="../img/projects/1.webp" alt="">
+                    </div>
+                    <div class="projects__slide-text">4 сезона</div>
+                    <div class="projects__slide-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-slide projects__slide">
+                    <a href="" class="projects__slide-link"></a>
+                    <div class="projects__slide-img">
+                        <img src="../img/projects/2.webp" alt="">
+                    </div>
+                    <div class="projects__slide-text">Берег</div>
+                    <div class="projects__slide-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-slide projects__slide">
+                    <a href="" class="projects__slide-link"></a>
+                    <div class="projects__slide-img">
+                        <img src="../img/projects/3.webp" alt="">
+                    </div>
+                    <div class="projects__slide-text">Вид на волгу</div>
+                    <div class="projects__slide-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-slide projects__slide">
+                    <a href="" class="projects__slide-link"></a>
+                    <div class="projects__slide-img">
+                        <img src="../img/projects/4.webp" alt="">
+                    </div>
+                    <div class="projects__slide-text">Волна</div>
+                    <div class="projects__slide-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-slide projects__slide">
+                    <a href="" class="projects__slide-link"></a>
+                    <div class="projects__slide-img">
+                        <img src="../img/projects/1.webp" alt="">
+                    </div>
+                    <div class="projects__slide-text">4 сезона</div>
+                    <div class="projects__slide-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-slide projects__slide">
+                    <a href="" class="projects__slide-link"></a>
+                    <div class="projects__slide-img">
+                        <img src="../img/projects/1.webp" alt="">
+                    </div>
+                    <div class="projects__slide-text">Зенк</div>
+                    <div class="projects__slide-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1"></path>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+      <section class="reviews">
+    <div class="container">
+        <div class="reviews__head">
+            <h2 class="title__section reviews__title">Отзывы про нашу работу</h2>
+            <div class="reviews__nav">
+                <div class="reviews__nav-btn prev">
+                    <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.5 6.56233L5.75 0.500156M0.5 6.56233L5.75 12.6245M0.5 6.56233L18 6.56233" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="reviews__nav-btn next">
+                    <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6.56233L12.75 0.500156M18 6.56233L12.75 12.6245M18 6.56233L0.5 6.56233" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <!-- /.reviews__nav-btn -->
+            </div>
+        </div>
+
+        <div class="reviews__desc text-16">Отзывы клиентов, чей интерьер уже украсила мебель от «Леонардо»</div>
+
+        <div class="reviews__slider">
+            <div class="swiper reviews__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide reviews__slide">
+                        <p class="text-16">Проводим личную консультацию и подбираем мебель под Ваши запросы</p>
+                    </div>
+                    <div class="swiper-slide reviews__slide">
+                        <p class="text-16">Проводим личную консультацию и подбираем мебель под Ваши запросы. Проводим личную консультацию и подбираем мебель под Ваши запросы</p>
+                    </div>
+                    <div class="swiper-slide reviews__slide">
+                        <p class="text-16">Проводим личную консультацию и подбираем мебель под Ваши запросы. Проводим личную консультацию и подбираем мебель под Ваши запросы.Проводим личную консультацию и подбираем мебель под Ваши запросы</p>
+                    </div>
+                    <div class="swiper-slide reviews__slide">
+                        <p class="text-16">Проводим личную консультацию и подбираем мебель под Ваши запросы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="designer">
+    <picture class="designer__bg">
+        <source media="(max-width: 767px)" srcset="../img/designer-bg-mobile.webp" type="image/webp">
+        <img src="../img/designer-bg.webp" alt="">
+    </picture>
+
+    <div class="container">
+        <div class="designer__content">
+            <div class="left">
+                <h2 class="title__section designer__title">Вы дизайнер?</h2>
+                <p class="text-16">Приглашаем к сотрудничеству дизайнеров, архитекторов и декораторов — всех тех, кто сделал дизайн интерьера своим призванием</p>
+                <button type="button" class="btn-reset designer__btn text-16">
+                    Начать сотрудничество
+                    <span class="toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="right">
+                <div class="designer__futures">
+                    <div class="designer__future">
+                        <div class="designer__future-icon">
+                            <svg>
+                                <use href="img/sprite.svg#design-icon"></use>
+                            </svg>
+                        </div>
+                        <div class="designer__future-desc">Подбор фабрик и брендов под задачу</div>
+                    </div>
+                    <div class="designer__future">
+                        <div class="designer__future-icon">
+                            <svg>
+                                <use href="img/sprite.svg#design-icon"></use>
+                            </svg>
+                        </div>
+                        <div class="designer__future-desc">Комплексное сопровождение проекта</div>
+                    </div>
+                    <div class="designer__future">
+                        <div class="designer__future-icon">
+                            <svg>
+                                <use href="img/sprite.svg#design-icon"></use>
+                            </svg>
+                        </div>
+                        <div class="designer__future-desc">Индивидуальные условия и гибкая система бонусов</div>
+                    </div>
+                    <div class="designer__future">
+                        <div class="designer__future-icon">
+                            <svg>
+                                <use href="img/sprite.svg#design-icon"></use>
+                            </svg>
+                        </div>
+                        <div class="designer__future-desc">Профессиональная логистика и международная доставка</div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.right -->
+        </div>
+        <!-- /.designer__content -->
+    </div>
+</section>
+      <section class="faq">
+    <div class="container">
+        <h2 class="title__section faq__title">Варианты работы с нами</h2>
+        <div class="faq__items">
+            <div class="faq__item">
+
+                <div class="faq__item-head" data-faq-toggler="true">
+                    <div class="faq__item-number toggler-arrow">1</div>
+                    <div class="faq__item-title text-24">Полная комплектация интерьера</div>
+
+                    <div class="faq__item-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353546 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353546 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="faq__item-bottom">
+                    <div class="faq__item-content">
+                        <ul class="list-reset">
+                            <li class="text-16">На этапе планировки мы включаемся в процесс и вместе с дизайнером и заказчиком выбираем позиции из мебели, паркета, света, декора и прочее под проект</li>
+                            <li class="text-16">Командное ведение проекта до результата</li>
+                        </ul>
+
+                        <button class="btn-reset btn faq__item-btn">Примеры комплектации</button>
+                    </div>
+                    <!-- /.faq__item-content -->
+                </div>
+                <!-- /.faq__item-bottom -->
+
+            </div>
+            <div class="faq__item">
+
+                <div class="faq__item-head" data-faq-toggler="true">
+                    <div class="faq__item-number toggler-arrow">2</div>
+                    <div class="faq__item-title text-24">Частичная комплектация интерьера</div>
+
+                    <div class="faq__item-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353546 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353546 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="faq__item-bottom">
+                    <div class="faq__item-content">
+                        <ul class="list-reset">
+                            <li class="text-16">На этапе планировки мы включаемся в процесс и вместе с дизайнером и заказчиком выбираем позиции из мебели, паркета, света, декора и прочее под проект</li>
+                            <li class="text-16">Командное ведение проекта до результата</li>
+                        </ul>
+                    </div>
+                    <!-- /.faq__item-content -->
+                </div>
+                <!-- /.faq__item-bottom -->
+
+            </div>
+            <div class="faq__item">
+
+                <div class="faq__item-head" data-faq-toggler="true">
+                    <div class="faq__item-number toggler-arrow">3</div>
+                    <div class="faq__item-title text-24">Подбор мебели в проект</div>
+
+                    <div class="faq__item-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353546 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353546 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="faq__item-bottom">
+                    <div class="faq__item-content">
+                        <ul class="list-reset">
+                            <li class="text-16">На этапе планировки мы включаемся в процесс и вместе с дизайнером и заказчиком выбираем позиции из мебели, паркета, света, декора и прочее под проект</li>
+                            <li class="text-16">Командное ведение проекта до результата</li>
+                        </ul>
+                    </div>
+                    <!-- /.faq__item-content -->
+                </div>
+                <!-- /.faq__item-bottom -->
+
+            </div>
+            <div class="faq__item">
+
+                <div class="faq__item-head" data-faq-toggler="true">
+                    <div class="faq__item-number toggler-arrow">4</div>
+                    <div class="faq__item-title text-24">Покупка мебели из наличия</div>
+
+                    <div class="faq__item-toggler toggler-arrow">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.353546 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353546 14.5" stroke="#F1F1F1" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="faq__item-bottom">
+                    <div class="faq__item-content">
+                        <ul class="list-reset">
+                            <li class="text-16">На этапе планировки мы включаемся в процесс и вместе с дизайнером и заказчиком выбираем позиции из мебели, паркета, света, декора и прочее под проект</li>
+                            <li class="text-16">Командное ведение проекта до результата</li>
+                        </ul>
+                    </div>
+                    <!-- /.faq__item-content -->
+                </div>
+                <!-- /.faq__item-bottom -->
+
+            </div>
+        </div>
+
+        <div class="faq__callback">
+            <div class="faq__callback-content">
+                <div class="faq__callback-title title__section">Получите каталог наличия мебели</div>
+                <div class="text-16 faq__callback-desc">Оставьте свои данные и мы подберем удобное время для Вашей
+                                            консультации</div>
+
+                <form class="form-cb" action="">
+                    <div class="form-cb__row">
+                        <input type="text" placeholder="Имя*" class="input">
+                        <input type="text" placeholder="Телефон*" class="input">
+                        <input type="text" placeholder="Ваш город*" class="input">
+                    </div>
+
+                    <div class="form-cb__bottom">
+                        <div class="policy">
+                            <input type="checkbox">
+                            <label for="">отправляя формы на данном сайте, вы даете согласие на обработку персональных данных </label>
+                        </div>
+
+                        <button class="btn-reset btn form-cb__btn">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="faq__callback-img">
+                <img src="../img/book.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+      <section class="contacts">
+    <div class="container">
+        <h2 class="title__section contacts__title">Как нас найти</h2>
+
+        <div class="contacts__inner">
+            <div class="contacts__left">
+                <div class="contacts__item">
+
+                    <div class="contacts__item-photo">
+                        <img src="../img/contacts-photo.webp" alt="">
+                    </div>
+                    <div class="contacts__item-content">
+                        <div class="city">
+                            <p>
+                                <svg>
+                                    <use href="img/sprite.svg#map"></use>
+                                </svg>
+                                г. Тольятти
+                            </p>
+                            <span>ул. Маршала Жукова, 29а</span>
+                        </div>
+                        <div class="work-time">
+                            <p>
+                                <svg>
+                                    <use href="img/sprite.svg#clock"></use>
+                                </svg>
+                                Режим работы:
+                            </p>
+                            <span class="text-16">Пн-Пт 10:00 — 19:00. Сб: 11:00 — 17:00. Вс: выходной</span>
+                        </div>
+                        <div class="phones">
+                            <p>
+                                <svg>
+                                    <use href="img/sprite.svg#phone"></use>
+                                </svg>
+                                Телефон:
+                            </p>
+                            <div class="phones-wrapper">
+                                <a class="text-16" href="">+7 (84-82) 35-15-15</a>
+                                <a class="text-16" href="">+7 (84-82) 35-55-53</a>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="btn-reset link-border">Фото офиса</button>
+                            <button type="button" class="btn-reset link-border">Экскурсия по офису</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contacts__item">
+
+                    <div class="contacts__item-photo">
+                        <img src="../img/contacts-photo.webp" alt="">
+                    </div>
+                    <div class="contacts__item-content">
+                        <div class="city">
+                            <p>
+                                <svg>
+                                    <use href="img/sprite.svg#map"></use>
+                                </svg>
+                                г. Тольятти
+                            </p>
+                            <span>ул. Маршала Жукова, 29а</span>
+                        </div>
+                        <div class="work-time">
+                            <p>
+                                <svg>
+                                    <use href="img/sprite.svg#clock"></use>
+                                </svg>
+                                Режим работы:
+                            </p>
+                            <span class="text-16">Пн-Пт 10:00 — 19:00. Сб: 11:00 — 17:00. Вс: выходной</span>
+                        </div>
+                        <div class="phones">
+                            <p>
+                                <svg>
+                                    <use href="img/sprite.svg#phone"></use>
+                                </svg>
+                                Телефон:
+                            </p>
+                            <div class="phones-wrapper">
+                                <a class="text-16" href="">+7 (84-82) 35-15-15</a>
+                                <a class="text-16" href="">+7 (84-82) 35-55-53</a>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="btn-reset link-border">Фото офиса</button>
+                            <button type="button" class="btn-reset link-border">Экскурсия по офису</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contacts__right">
+                <img src="../img/contacts-map.webp" alt="">
+            </div>
+            <!-- /.contacts__right -->
+        </div>
+        <!-- /.contacts__inner -->
+    </div>
+    <!-- /.container -->
+</section>
+      <section class="articles">
+    <div class="container">
+        <div class="articles__head">
+            <h2 class="title__section articles__title">Полезная информация от нас</h2>
+            <a class="link-border articles__link" href="">Читать все статьи</a>
+        </div>
+        <!-- /.articles__head -->
+    </div>
+    <!-- /.container -->
+
+    <div class="articles__slider">
+        <div class="swiper articles__swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide articles__slide">
+                    <a href="" class="articles__slide-link"></a>
+                    <div class="articles__slide-img">
+                        <img src="../img/articles/1.webp" alt="">
+                    </div>
+                    <div class="articles__slide-date">11 марта 2024</div>
+                    <div class="articles__slide-bottom">
+                        <div class="articles__slide-title">Коллекция аксессуаров и декора для современного интерьера</div>
+                        <div class="articles__slide-toggler toggler-arrow">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide articles__slide">
+                    <a href="" class="articles__slide-link"></a>
+                    <div class="articles__slide-img">
+                        <img src="../img/articles/2.webp" alt="">
+                    </div>
+                    <div class="articles__slide-date">11 марта 2024</div>
+                    <div class="articles__slide-bottom">
+                        <div class="articles__slide-title">5 коллекций освещения для современного интерьера</div>
+                        <div class="articles__slide-toggler toggler-arrow">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide articles__slide">
+                    <a href="" class="articles__slide-link"></a>
+                    <div class="articles__slide-img">
+                        <img src="../img/articles/3.webp" alt="">
+                    </div>
+                    <div class="articles__slide-date">11 марта 2024</div>
+                    <div class="articles__slide-bottom">
+                        <div class="articles__slide-title">Новая коллекция раздвижных и круглых столов: трансформация стиля и пространства</div>
+                        <div class="articles__slide-toggler toggler-arrow">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide articles__slide">
+                    <a href="" class="articles__slide-link"></a>
+                    <div class="articles__slide-img">
+                        <img src="../img/articles/2.webp" alt="">
+                    </div>
+                    <div class="articles__slide-date">11 марта 2024</div>
+                    <div class="articles__slide-bottom">
+                        <div class="articles__slide-title">5 коллекций освещения для современного интерьера</div>
+                        <div class="articles__slide-toggler toggler-arrow">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.353516 0.5H14.3535M14.3535 0.5V14.5M14.3535 0.5L0.353516 14.5" stroke="#F1F1F1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /.articles__slider -->
+</section>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__col">
+                <a href="" class="logo">
+                    <img src="../img/logo.svg" alt="Леонардо">
+                </a>
+                <a class="footer__link" href="">8-000-000-00-00</a>
+                <a class="footer__link" href="">Email@gmail.ru</a>
+
+                <div class="footer__socials">
+                    <a href="" class="icon-socials">
+                        <svg>
+                            <use href="img/sprite.svg#whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a href="" class="icon-socials">
+                        <svg >
+                            <use href="img/sprite.svg#telegram"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <button class="btn-reset btn footer__btn" data-open-modal="cb">Заказать звонок</button>
+            </div>
+            <div class="footer__col">
+                <div class="footer__nav">
+                    <div class="footer__nav-block">
+                        <div class="footer__nav-title">Ассортимент</div>
+                        <nav class="nav">
+                            <ul class="list-reset list">
+                                <li>
+                                    <a href="">Кухни и столовые</a>
+                                </li>
+                                <li>
+                                    <a href="">Спальни и гардеробные</a>
+                                </li>
+                                <li>
+                                    <a href="">Гостиные и двери</a>
+                                </li>
+                                <li>
+                                    <a href="">Ванные</a>
+                                </li>
+                                <li>
+                                    <a href="">Детские</a>
+                                </li>
+                                <li>
+                                    <a href="">Свет и декор</a>
+                                </li>
+                                <li>
+                                    <a href="">Мебель для улицы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__nav-block">
+                        <nav class="nav">
+                            <ul class="list-reset list">
+                                <li>
+                                    <a class="footer__nav-link" href="">Кухни и столовые</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-link" href="">Спальни и гардеробные</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-link" href="">Гостиные и двери</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-link" href="">Ванные</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-link" href="">Детские</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-link" href="">Свет и декор</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-link" href="">Мебель для улицы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- /.footer__nav-block -->
+                </div>
+            </div>
+            <div class="footer__col footer__end">
+                <div class="footer__rec">
+                    <p>ИНН 0000000000/КПП 0000000</p>
+                    <p>© 2010-2019, салон модной мебели «Леонардо».</p>
+                </div>
+                <div class="footer__policy">
+                    <a href="">Политика конфиденциальности</a>
+                    <a href="">Пользовательское соглашение</a>
+                </div>
+                <!-- /.footer__policy -->
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal" id="cb">
+    <div class="modal__container">
+        <div class="modal__close">
+            <svg style="pointer-events: none" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 10L10 30M10 10L30 30" stroke="#787C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+
+        <div class="modal__content">
+            <div class="modal__title title__section">Ответим на любые вопросы по продукции</div>
+            <div class="modal__desc text-16">Оставьте ваши контактные данные, и мы свяжемся с вами в ближайшее время</div>
+
+            <div class="modal-form">
+                <input type="text" class="input" placeholder="Имя*">
+                <input type="text" class="input" placeholder="Телефон*">
+
+                <div class="modal-form__bottom">
+                    <div class="policy">
+                        <input type="checkbox">
+                        <label for="">отправляя формы на данном сайте, вы даете согласие на обработку персональных данных </label>
+                    </div>
+
+                    <button type="button" class="btn-reset btn modal-form__btn">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="catalog">
+    <div class="modal__container">
+        <div class="modal__close">
+            <svg style="pointer-events: none" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 10L10 30M10 10L30 30" stroke="#787C82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+
+        <div class="modal__content">
+            <div class="modal__title title__section">Пришлем каталог с полным перечнем доступной мебели</div>
+            <div class="modal__desc text-16">Оставьте ваши контактные данные, и мы свяжемся с вами в ближайшее время</div>
+
+            <div class="modal-form">
+                <input type="text" class="input" placeholder="Имя*">
+                <input type="text" class="input" placeholder="Телефон*">
+
+                <div class="modal-form__bottom">
+                    <div class="policy">
+                        <input type="checkbox">
+                        <label for="">отправляя формы на данном сайте, вы даете согласие на обработку персональных данных </label>
+                    </div>
+
+                    <button type="button" class="btn-reset btn modal-form__btn">Получить каталог</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.modal -->
+  </body>
+
+</html>
