@@ -4379,6 +4379,7 @@ html.with-fancybox body.hide-scrollbar {
 }
 .blog__item-toggler {
   min-width: 40px;
+  border: none;
 }
 @media (any-hover: hover) {
   .blog__item:hover img {
